@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(172, 172, 172);
+}
+
+/* corpo */
+main#curriculo {
+    width: 50vw;
+    height: 100vh;
+
+    margin: auto;
+
+    display: flex;
+}
+
+/* corpo - partes */
+section#informacao_primaria {
+    height: 100%;
+    width: 65%;
+    background-color: #FFFFFF;
+}
+
+aside#informacao_secundaria {
+    height: 100%;
+    width: 35%;
+    background-color: #19304F;
+}
+
+
+/* responsivo - corpo */
+@media (max-width: 1024px) {
+    main#curriculo {
+        width: 100vw;
+    }
+}
+
+/* de 1400 até 1024 */
+@media (max-width: 1400px) and (min-width: 1024px) {
+    main#curriculo {
+        width: 65vw;
+    }
+}
