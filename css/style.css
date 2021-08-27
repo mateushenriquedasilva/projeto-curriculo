@@ -28,7 +28,7 @@ a:hover {
 
 /* corpo👃 */
 #curriculo {
-    width: 50vw;
+    width: 75vw;
     height: 170vh;
 
     margin: auto;
@@ -90,8 +90,8 @@ ul[class|="lista"] {
     margin: 0;
 }
 
-.lista-educacao li:last-child {
-    margin-bottom: 6px;
+.lista-educacao li {
+    margin-bottom: 10px;
 }
 
 .curso-lista {
@@ -100,7 +100,7 @@ ul[class|="lista"] {
 }
 
 .curso-lista li {
-    padding-top: 6px;
+    padding-top: 10px;
 }
 
 /* aside - contato */
@@ -110,7 +110,7 @@ ul[class|="lista"] {
 }
 
 .contato h2, .conhecimento h2 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-weight: 200;
 }
 
@@ -124,8 +124,6 @@ ul[class|="lista"] {
 
 .white-text {
     color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 .contato, .conhecimento {
@@ -133,7 +131,7 @@ ul[class|="lista"] {
 }
 
 .skills {
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
 }
 
 /* footer 🦵 */
