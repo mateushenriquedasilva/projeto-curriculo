@@ -8,6 +8,7 @@
 
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +16,83 @@
 </head>
 <body>
      <main id="curriculo">
-        <section id="informacao_primaria"></section>
-        <aside id="informacao_secundaria"></aside>
+        <section id="informacao_primaria">
+            <header id="cabecalho">
+                <img src="img/minha_foto.svg" alt="Minha foto">
+                <div>
+                    <h1 class="texto_logo">Matheus Henrique</h1>
+                    <h4>Front-end Developer</h4>
+                </div>
+            </header>
+            <article class="article-perfil">
+                <h3>Perfil</h3>
+                <p>
+                    Sou um estudante de Desenvolvimento frontend. Amo tecnologia e adoro conhecer novas
+                    pessoas. Sou bastante comprometido, e gosto
+                    muito de me comunicar com o público. Sou
+                    determinado e muito dedicado, e tenho uma
+                    enorme vontade de aprender novas
+                    tecnologias.
+                </p>
+            </article>
+            <article class="article-educacao">
+                <h3>Educação</h3>
+                <ul class="lista-educacao" >
+                    <li>Curso Front End com ênfase em React - Start - 2021</li>
+                    <ul class="curso-lista">
+                        <li>Módulo Ambientação Plataforma</li>
+                        <li>Módulo inteligência Emocional</li>
+                        <li>Lógica de programação</li>
+                        <li>HTML, CSS, Javascript, Git, React, Docker, API Rest.</li>
+                    </ul>
+                    <li>Lógica de programação essencial - Digital Innovation One - Concluído</li>
+                    <li>JavaScript ES6 essencial - Digital Innovation One - Concluído</li>
+                    <li>Programação para internet com JavaScript - Digital Innovation One - Concluído</li>
+                    <li>Construindo páginas para internet com Bootstrap - Digital Innovation One - Concluído</li>
+                    <li>Programação para internet com HTML5 e CSS3 - Digital Innovation One - Concluído</li>
+                    <li>Introdução ao Git e ao GitHub - Digital Innovation One   - Concluído</li>
+                    <li>Trabalhando com Branches no Github- Digital Innovation One - Concluído</li>
+                    <li>Projetos ágeis com SCRUM - Digital Innovation One - Concluído</li>
+                    <li>Ensino Médio - Completo</li>
+                </ul>
+            </article>
+            <article class="article-projetos">
+                <h3>Projetos</h3>
+                <ul class="lista-projetos" >
+                    <li>Biografia de Personagem - <a href="https://github.com/mateushenriquedasilva/biografia-de-personagem" target="_blank">Clique aqui</a></li>
+                    <li>Formulários com html e css - <a href="https://github.com/mateushenriquedasilva/formularios-com-html-e-css" target="_blank">Clique aqui</a></li>
+                    <li>Cartão de Produto - <a href="https://github.com/mateushenriquedasilva/product-card" target="_blank">Clique aqui</a></li>
+                    <li>Site Dragão de komodo - <a href="https://github.com/mateushenriquedasilva/dragao-de-komodo" target="_blank">Clique aqui</a></li>
+                </ul>
+            </article>
+            <footer>
+                <p>&copy; Matheus Henrique da Silva</p>
+            </footer>
+        </section>
+        <aside id="informacao_secundaria">
+            <article class="contato">
+                <h2 class="white-text">Contato</h2>
+                <p class="white-text">(81) 9.9834-3668</p>
+                <p class="white-text">matheushenriquedasilvaa.2021@gmail.com</p>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/matheus-henrique-54a673197/" target="_blanck"><img src="img/icones/linkedin.svg" alt="Linkedin"></a>
+                    <a href="https://github.com/mateushenriquedasilva"  target="_blanck"><img src="img/icones/github.svg" alt="GitHub"></a>
+                </div>
+            </article>
+            <article class="conhecimento">
+                <h2 class="white-text">Conhecimentos</h2>
+                <p class="white-text skills">HTML</p>
+                <p class="white-text skills">CSS</p>
+                <p class="white-text skills">JavaScript</p>
+                <p class="white-text skills">Npm</p>
+                <p class="white-text skills">React</p>
+                <p class="white-text skills">API Rest</p>
+                <p class="white-text skills">Docker</p>
+                <p class="white-text skills">Git</p>
+                <p class="white-text skills">Github</p>
+                <p class="white-text skills">Bootstrap</p>
+            </article>
+        </aside>
      </main>
 </body>
 </html>

@@ -1,21 +1,35 @@
+/* tudo🌍 */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-h2, p {
+body {
+    background-color: rgb(172, 172, 172);
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: rgb(172, 172, 172);
+h1, h4, h3, a {
+    color:#19304F;
 }
 
-/* corpo */
-main#curriculo {
+p, li {
+    color: #222222;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* corpo👃 */
+#curriculo {
     width: 50vw;
-    height: 100vh;
+    height: 170vh;
 
     margin: auto;
 
@@ -23,29 +37,114 @@ main#curriculo {
 }
 
 /* corpo - partes */
-section#informacao_primaria {
+#informacao_primaria {
     height: 100%;
     width: 65%;
     background-color: #FFFFFF;
+
+    position: relative;
+
 }
 
-aside#informacao_secundaria {
+#informacao_secundaria {
     height: 100%;
     width: 35%;
     background-color: #19304F;
 }
 
+/* corpo - header 🤯 */
 
-/* responsivo - corpo */
-@media (max-width: 1024px) {
-    main#curriculo {
-        width: 100vw;
-    }
+#cabecalho {
+    display: flex;
 }
 
-/* de 1400 até 1024 */
-@media (max-width: 1400px) and (min-width: 1024px) {
-    main#curriculo {
-        width: 65vw;
-    }
+#cabecalho img[alt="Minha foto"] {
+    border-radius: 50%;
+    margin: 0 25px;
+}
+
+#cabecalho > img + div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cabecalho > img + div > h1 {
+    margin-bottom: 6px;
+}
+
+/* corpo👣 */
+article[class|="article"] > h3, p {
+    margin: 11px;
+    margin-bottom: 11px;
+}
+
+
+/* corpo - educação */
+ul[class|="lista"] {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.lista-educacao > li:first-child {
+    margin: 0;
+}
+
+.lista-educacao li {
+    margin-bottom: 10px;
+}
+
+.curso-lista {
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.curso-lista li {
+    padding-top: 10px;
+}
+
+/* aside - contato */
+.contato {
+    margin-top: 19vh;
+    margin-bottom: 7vh;
+}
+
+.contato h2, .conhecimento h2 {
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.icons {
+    margin-left: 5px;
+}
+
+.icons img {
+    width: 40px;
+}
+
+.white-text {
+    color: white;
+}
+
+.contato, .conhecimento {
+    padding: 25px;
+}
+
+.skills {
+    border-bottom: 3px solid white;
+}
+
+/* footer 🦵 */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+
+    height: 30px;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #19304F;
 }

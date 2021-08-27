@@ -1,0 +1,220 @@
+/*------celular-------*/
+@media (max-width: 570px) {
+    #curriculo {
+        width: 100vw;
+    }
+
+    #cabecalho, article[class|="article"] {
+        margin: 25px 15px;
+    }
+
+    #cabecalho img[alt="Minha foto"] {
+        width: 11vh;
+        margin: 0 5px;
+    }
+
+    /* div de article */
+    #cabecalho img + div {
+        /* h1 e h4 - header */
+        font-size: 9px;
+    }
+
+    /* perfil */
+    article[class|="article"] > p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    article[class|="article"] > h3 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* educação */
+    ul[class|="lista"] li {
+        font-size: 10px;
+    }
+
+    .lista-educacao {
+        margin-left: 30px;
+    }
+    
+    .lista-curso {
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+
+    /* footer */
+    footer {
+        height: 20px;
+        font-size: 10px;
+    }
+
+    /* aside - contato, conhecimento */
+
+    .contato {
+        margin-top: 11vh;
+        padding: 11px;
+    }
+
+    .icons {
+        margin-left: 5px;
+    }
+
+    .icons img {
+        width: 15px;
+    }
+
+    .contato, .conhecimento {
+        font-size: 5px;
+    }
+}
+
+/* tablete e notebook */
+
+@media (max-width: 1024px) and (min-width: 570px){
+    #curriculo {
+        width: 100vw;
+    } 
+
+    #cabecalho, article[class|="article"]{
+        margin: 45px 33px;
+    }
+
+    #cabecalho img[alt="Minha foto"] {
+        width: 15vh;
+    }
+
+    /* perfil */
+    article[class|="article"] > p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    article[class|="article"] > h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /* educação */
+    ul[class|="lista"]  li {
+        font-size: 12px;
+    }
+
+    /* aside - contato, conhecimento */
+
+    .contato {
+        margin-top: 11vh;
+        padding: 22px;
+    }
+
+    .icons {
+        margin-left: 5px;
+    }
+
+    .icons img {
+        width: 25px;
+    }
+
+    .contato, .conhecimento {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1024px) {
+    #curriculo {
+        width: 65vw;
+    }
+
+    #cabecalho, article[class|="article"] {
+        margin: 45px 43px;
+    }
+
+    #cabecalho img[alt="Minha foto"] {
+        width: 20vh;
+    }
+
+    /* perfil */
+    article[class|="article"] > p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    article[class|="article"] > h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    /* educação */
+    ul[class|="lista"]  li {
+        font-size: 14px;
+    }
+
+    /* aside - contato, conhecimento */
+
+    .contato {
+        margin-top: 11vh;
+        padding: 20px;
+    }
+
+    .icons {
+        margin-left: 5px;
+    }
+
+    .icons img {
+        width: 25px;
+    }
+
+    .contato, .conhecimento {
+        font-size: 10px;
+    }
+}
+
+
+/*------desktop-------*/
+@media (min-width: 1400px) {
+    #curriculo {
+        width: 55vw;
+    }
+
+
+    #cabecalho img[alt="Minha foto"] {
+        width: 17vh;
+    }
+
+    #cabecalho, article[class|="article"] {
+        margin: 65px 55px;
+    }
+
+    #cabecalho img + div {
+        /* h1 e h4 - header */
+        font-size: 19px;
+    }
+
+    /* perfil */
+    article[class|="article"] > p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    article[class|="article"] > h3 {
+        font-size: 22px;
+        line-height: 18px;
+    }
+
+    /* educação */
+    ul[class|="lista"]  li {
+        font-size: 20px;
+    }
+
+    /* aside - contato, conhecimento */
+
+    .contato h2, .conhecimento h2 {
+        font-size: 30px;
+    }
+
+    /* skills */
+    .skills {
+        font-size: 20px;
+    }
+}
