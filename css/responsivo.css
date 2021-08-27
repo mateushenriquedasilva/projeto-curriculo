@@ -55,6 +55,12 @@
     .contato {
         margin-top: 11vh;
         padding: 11px;
+        margin-bottom: 0vh;
+    }
+
+    .conhecimento {
+        padding: 11px;
+        margin-top: 5px;
     }
 
     .icons {
@@ -67,6 +73,14 @@
 
     .contato, .conhecimento {
         font-size: 5px;
+    }
+
+    .skills {
+        border-bottom: 1px solid white;
+    }
+
+    .texto-contato {
+        margin: 5px;
     }
 }
 
