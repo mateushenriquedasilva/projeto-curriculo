@@ -1,0 +1,22 @@
+{
+  "name": "avaliacao-html-e-css",
+  "version": "1.0.0",
+  "description": "Avaliação do módulo de Html e Css - Start 2021",
+  "main": "index.html",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateushenriquedasilva/projeto-curriculo.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "Matheus Henrique da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateushenriquedasilva/projeto-curriculo/issues"
+  },
+  "homepage": "https://github.com/mateushenriquedasilva/projeto-curriculo#readme"
+}
